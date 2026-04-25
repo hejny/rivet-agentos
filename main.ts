@@ -27,7 +27,19 @@ try {
     "Write a Python script that calculates pi",
   );
 
+  // Log the full response object for debugging
   console.log("[response]", response);
+  if (response && typeof response === "object") {
+    if (response.text === "") {
+      console.warn("[warn] Response text is empty. Full response:", JSON.stringify(response, null, 2));
+    }
+    if (response.response) {
+      console.log("[response.response]", JSON.stringify(response.response, null, 2));
+    }
+    if (response.error) {
+      console.error("[error]", response.error);
+    }
+  }
 
   vm.closeSession(sessionId);
 } finally {
