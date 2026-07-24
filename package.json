@@ -7,7 +7,7 @@
     "@rivet-dev/agent-os-common": "^0.0.260331072558",
     "@rivet-dev/agent-os-pi": "^0.1.1",
     "@secure-exec/v8": "^0.2.1-rc.1",
-    "rivetkit": "^2.2.1",
+    "rivetkit": "^2.3.9",
     "secure-exec": "^0.2.1"
   },
   "devDependencies": {
