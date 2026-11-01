@@ -30,5 +30,6 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/hejny/rivet-agentos.git"
-    }
+    },
+    "description": ""
 }
