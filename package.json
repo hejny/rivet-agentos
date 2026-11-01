@@ -16,5 +16,15 @@
         "tsx": "4.21.0",
         "typescript": "6.0.3"
     },
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "funding": [
+        {
+            "type": "individual",
+            "url": "https://buymeacoffee.com/hejny"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/hejny/rivet-agentos/blob/main/README.md#%EF%B8%8F-contributing"
+        }
+    ]
 }
