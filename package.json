@@ -26,5 +26,9 @@
             "type": "github",
             "url": "https://github.com/hejny/rivet-agentos/blob/main/README.md#%EF%B8%8F-contributing"
         }
-    ]
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hejny/rivet-agentos.git"
+    }
 }
